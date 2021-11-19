@@ -1,0 +1,75 @@
+https://letsenhance.io/boost
+flutter pub run flutter_native_splash:create
+flutter pub run flutter_launcher_icons:main 
+
+
+https://medium.com/@180nutrifit/building-a-sign-up-form-with-email-verification-using-flutter-4e0ce9e4c132
+
+https://www.youtube.com/watch?v=iZqxIvlzXVw
+
+https://flutteragency.com/remove-iconbutton-big-padding/
+
+https://medium.com/@dev.n/flutter-challenge-whatsapp-b4dcca52217b
+---
+
+use future Builder (stateless widget)- ver no vídeo no minuto 7.33'
+
+https://www.youtube.com/watch?v=TZkGT8WkjdA&list=PLdTodMosi-BwEwlzjN6EyS1vwGXFo-UlK
+https://github.com/deven98/WhatsappFlutter
+---
+
+https://www.google.com/search?q=flutter+colors&tbm=isch&ved=2ahUKEwiP9Kig9OrxAhUksZUCHSOGBG0Q2-cCegQIABAA&oq=flutter+colors&gs_lcp=CgNpbWcQDFAAWABgs8sOaABwAHgAgAEAiAEAkgEAmAEAqgELZ3dzLXdpei1pbWc&sclient=img&ei=tTjzYM_FCaTi1sQPo4yS6AY
+
+https://www.geeksforgeeks.org/flutter-changing-app-icon/
+ https://appicon.co/
+
+https://www.youtube.com/watch?v=8ME8Czqc-Oc
+https://github.com/JohannesMilke/native_splash_screen_example/blob/master/lib/main.dart
+
+----
+https://api.flutter.dev/flutter/material/Colors-class.html
+
+https://coolors.co/25ced1-ffffff-fceade-ff8a5b-ea526f
+----
+
+https://stackoverflow.com/questions/64831065/parsing-json-array-returns-expected-a-value-of-type-list-but-got-one-of-ty/64831269
+
+https://stackoverflow.com/questions/65153141/flutter-i-want-to-rebuild-the-list-but-cant-be-assigned
+
+http://www.macoratti.net/19/08/flut_pjson1.htm
+
+https://flutter.dev/docs/development/data-and-backend/json
+
+// https://flutter.dev/docs/cookbook/networking/background-parsing
+
+---
+  // https://androidride.com/flutter-path-provider-example/
+  // Flutter Tutorial - Share Texts, Images & Files - Flutter Share Plugin
+  // https://www.youtube.com/watch?v=-PmUFbbA-Fs&t=79s
+  // https://stackoverflow.com/questions/46260055/how-to-make-copyable-text-widget-in-flutter
+  // https://pub.dev/packages/clipboard
+  // https://www.youtube.com/watch?v=RA-vLF_vnng
+  // WebView is a component to render and display a webpage in your app without opening a browser
+  // https://stackoverflow.com/questions/59761947/choose-a-file-and-send-through-post-with-flutter-web
+  // https://www.kindacode.com/article/flutter-copy-to-clipboard-example-without-any-plugins/
+
+---
+
+https://stackoverflow.com/questions/49959617/flutter-how-do-you-make-a-card-clickable
+
+---
+
+https://stackoverflow.com/questions/12888206/how-can-i-sort-a-list-of-strings-in-dart
+
+---
+
+Whatsapp Button Action Links
+https://faq.whatsapp.com/general/chats/how-to-use-click-to-chat
+https://pub.dev/packages/whatsapp_unilink
+https://pub.dev/packages/url_launcher
+
+----
+
+
+
+

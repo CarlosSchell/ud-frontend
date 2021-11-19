@@ -1,0 +1,317 @@
+Textos informativos para incluir no sistema:
+
+Pesquisar publicações do TJRS
+Período: 07/01/2020 a 27/04/2021
+
+Digite o nome da parte, o código da OAB do advogado, ou o numero completo do processo no padrão CNJ
+
+Especificação da API
+É fácil de integrar a API-REST (base de dados) do Lex ao seu sistema de controle de processos.
+As informações das publicações estão classificadas de acordo com a sua natureza, fornecendo uma rica base de informações para análise
+A consulta se faz com o uso de token de autenticação
+Caso tenha interesse, entre em Contato conosco pelo email :
+Baixar Edições do Diário Oficial do TJRS
+
+---
+
+carlos.schellenberger@gmail.com
+
+{
+    "email":"carlos.schellenberger@gmail.com",
+    "processos": [ 
+        { "processo": "9047403-17.2018.8.21.0001", "descricao":"MAURA HELENA DE CARLI"},
+        { "processo": "9023783-05.2020.8.21.0001", "descricao":"LEONARDO PIMENTEL SIQUEIRA"},
+        { "processo": "9003118-31.2021.8.21.0001", "descricao":"DORIS LETICIA CAVALHEIRO CARVALHO"},
+        { "processo": "9000591-37.2020.8.21.0003", "descricao":"GISSELE WEBER SOUZA"}
+        { "processo": "9001098-95.2020.8.21.0003", "descricao":"JOÃO CARLOS ANTUNES LAUREANO"},
+        { "processo": "9000135-10.2021.8.21.0082", "descricao":"LAUDIANE ALBERTA CIMADON"},
+        { "processo": "0006618-19.2021.8.21.7000", "descricao":"PEDRO CASSANTA DELLA PACE"},
+        { "processo": "0013343-24.2021.8.21.7000", "descricao":"WK INDUSTRIA E COMERCIO DE PRODUTOS MAGNETICOS LTDA"}
+    ]
+
+}
+
+---
+
+            OrDivider(),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: <Widget>[
+                SocalIcon(
+                  iconSrc: "assets/icons/facebook.svg",
+                  press: () {},
+                ),
+                SocalIcon(
+                  iconSrc: "assets/icons/twitter.svg",
+                  press: () {},
+                ),
+                SocalIcon(
+                  iconSrc: "assets/icons/google-plus.svg",
+                  press: () {},
+                ),
+              ],
+            )
+
+
+
+  // void _splashTimer() {
+  //   Timer(Duration(seconds: 5), () {
+  //     AuthOrHomeScreen();
+  //     //  Navigator.push(
+  //     //   context,
+  //     //   MaterialPageRoute(
+  //     //     builder: (context) {
+  //     //       return AuthOrHomeScreen();
+  //     //     },
+  //     //   ),
+  //     // );
+  //   });
+  // }
+  //await _splashTimer();
+
+            // // SvgPicture.asset(
+            // //   "assets/icons/chat.svg",
+            // //   height: size.height * 0.45,
+            // // ),
+
+            // Text(
+            //   "Bem vindo!",
+            //   style: TextStyle(
+            //     fontWeight: FontWeight.bold,
+            //     fontSize: 32,
+            //     color: Constants.kTextColor,
+            //   ),
+            // ),
+
+            // SizedBox(height: size.height * 0.01),
+            // Text(
+            //   "ou",
+            //   style: TextStyle(
+            //     fontSize: 20,
+            //   ),
+            // ),
+            // SizedBox(height: size.height * 0.01),
+            // RoundedButton(
+            //   text: "Novo usuário",
+            //   color: Constants.kPrimaryLightColor,
+            //   textColor: Colors.blueGrey,
+            //   press: () {
+            //     Navigator.push(
+            //       context,
+            //       MaterialPageRoute(
+            //         builder: (context) {
+            //           // return HomeScreen();
+            //           return SignUpScreen();
+            //         },
+            //       ),
+            //     );
+            //   },
+            // ),
+
+
+    // return Center(
+    //   child: ConstrainedBox(
+    //       constraints: BoxConstraints(
+    //         minWidth: 360,
+    //         maxWidth: 450,
+    //       ),
+    //       child: 
+
+                // Text(
+                //   "Entrar no Lex",
+                //   style: TextStyle(
+                //     fontWeight: FontWeight.bold,
+                //     fontSize: 24,
+                //     color: Constants.kTextColor,
+                //   ),
+                // ),
+
+
+  // String _email = '';
+  // String _password = '';
+
+  // @override
+  // void initState() {
+  //   super.initState();
+
+  //   // _emailController.addListener(_emailValueUpdate);
+  //   // _passwordController.addListener(_passwordValueUpdate);
+  // }
+
+  // @override
+  // void dispose() {
+  //   // _emailController.dispose();
+  //   // _passwordController.dispose();
+  //   super.dispose();
+  // }
+
+  // void _emailValueUpdate() {
+  //   _email = _emailController.text;
+  // }
+
+  // void _passwordValueUpdate() {
+  //   _password = _passwordController.text;
+  // }
+
+
+// https://pub.dev/packages/localstorage/example
+// localstorage: ^4.0.0+1
+
+class user {
+
+  User({ this.eamil, this.password, this.name, this.id });
+
+
+  Strin id;
+  String name;
+  String email;
+  String password;
+  String email;
+
+  Future<void> SaveData() async {
+    await Firestore.instance.collection('users').document(id).setData(toMap());
+  }
+
+  Map<String, dynamic> toMap() {
+    return {
+      'name': name,
+      'email': email,
+    }
+}
+
+}
+
+
+
+    // final List<Publicacao> _minhasPublicacoes = [
+    //   Publicacao(
+    //     processo: '9000566-61.2019.8.21.0002',
+    //     decisao:
+    //         '9000566-61.2019.8.21.0002(CNJ) - CLAUDIO ROBERTO AVILA VIEIRA (EDUARDO SFOGGIA CAMPOLI 54243/RS) X SANDY PAIM SEVERO (JANAÍNA MOMBACH LABRÊA 72551/RS). DECISÕES:VISTOS.NOS TERMOS DO ART. 40 DA LEI Nº 9.099/95, HOMOLOGO A PROPOSTA DE DECISÃO, PARA QUE PRODUZA EFEITOS COMO SENTENÇA. SEM CUSTAS E HONORÁRIOS, NA FORMA DA LEI. AS PARTES CONSIDERAM-SE INTIMADAS A PARTIR DA PUBLICAÇÃO DA DECISÃO, CASO TENHA OCORRIDO NO PRAZO ASSINADO; DO CONTRÁRIO, A INTIMAÇÃO TERÁ DE SER FORMAL.DILIGÊNCIAS LEGAIS.',
+    //     uf: 'RS',
+    //     tribunal: 'TJ',
+    //     cidade: 'ALEGRETE',
+    //     grau: '1',
+    //     gname: '1-interior',
+    //     diario: '6656',
+    //     pagina: '0001',
+    //     ano: '2020',
+    //     mes: '01',
+    //     dia: '07',
+    //     foro: 'FORO DE ALEGRETE',
+    //     vara: 'VARA CRIMINAL - JUIZADO ESPECIAL CÍVEL ADJUNTO',
+    //     tipo: 'tipo',
+    //     desctipo: 'desctipo',
+    //     recurso: 'recurso',
+    //     // processo: 'processo',
+    //     outronumero: 'outronumero',
+    //     assunto: 'assunto',
+    //     // decisao: 'decisao',
+    //     dataPublicacao: DateTime.now(),
+    //   ),
+    //   Publicacao(
+    //     processo: 'Processo 002',
+    //     decisao:
+    //         '9000566-61.2019.8.21.0002(CNJ) - CLAUDIO ROBERTO AVILA VIEIRA (EDUARDO SFOGGIA CAMPOLI 54243/RS) X SANDY PAIM SEVERO (JANAÍNA MOMBACH LABRÊA 72551/RS). DECISÕES:VISTOS.NOS TERMOS DO ART. 40 DA LEI Nº 9.099/95, HOMOLOGO A PROPOSTA DE DECISÃO, PARA QUE PRODUZA EFEITOS COMO SENTENÇA. SEM CUSTAS E HONORÁRIOS, NA FORMA DA LEI. AS PARTES CONSIDERAM-SE INTIMADAS A PARTIR DA PUBLICAÇÃO DA DECISÃO, CASO TENHA OCORRIDO NO PRAZO ASSINADO; DO CONTRÁRIO, A INTIMAÇÃO TERÁ DE SER FORMAL.DILIGÊNCIAS LEGAIS.',
+    //     uf: 'uf',
+    //     tribunal: 'tribunal',
+    //     cidade: 'cidade',
+    //     grau: 'grau',
+    //     gname: 'gname',
+    //     diario: 'diario',
+    //     pagina: 'pagina',
+    //     ano: 'ano',
+    //     mes: 'mes',
+    //     dia: 'dia',
+    //     foro: 'foro',
+    //     vara: 'vara',
+    //     tipo: 'tipo',
+    //     desctipo: 'desctipo',
+    //     recurso: 'recurso',
+    //     // processo: 'processo',
+    //     outronumero: 'outronumero',
+    //     assunto: 'assunto',
+    //     // decisao: 'decisao',
+    //     dataPublicacao: DateTime.now(),
+    //   ),
+    //   Publicacao(
+    //     processo: 'Processo 003',
+    //     decisao:
+    //         '9000566-61.2019.8.21.0002(CNJ) - CLAUDIO ROBERTO AVILA VIEIRA (EDUARDO SFOGGIA CAMPOLI 54243/RS) X SANDY PAIM SEVERO (JANAÍNA MOMBACH LABRÊA 72551/RS). DECISÕES:VISTOS.NOS TERMOS DO ART. 40 DA LEI Nº 9.099/95, HOMOLOGO A PROPOSTA DE DECISÃO, PARA QUE PRODUZA EFEITOS COMO SENTENÇA. SEM CUSTAS E HONORÁRIOS, NA FORMA DA LEI. AS PARTES CONSIDERAM-SE INTIMADAS A PARTIR DA PUBLICAÇÃO DA DECISÃO, CASO TENHA OCORRIDO NO PRAZO ASSINADO; DO CONTRÁRIO, A INTIMAÇÃO TERÁ DE SER FORMAL.DILIGÊNCIAS LEGAIS.',
+    //     uf: 'uf',
+    //     tribunal: 'tribunal',
+    //     cidade: 'cidade',
+    //     grau: 'grau',
+    //     gname: 'gname',
+    //     diario: 'diario',
+    //     pagina: 'pagina',
+    //     ano: 'ano',
+    //     mes: 'mes',
+    //     dia: 'dia',
+    //     foro: 'foro',
+    //     vara: 'vara',
+    //     tipo: 'tipo',
+    //     desctipo: 'desctipo',
+    //     recurso: 'recurso',
+    //     // processo: 'processo',
+    //     outronumero: 'outronumero',
+    //     assunto: 'assunto',
+    //     // decisao: 'decisao',
+    //     dataPublicacao: DateTime.now(),
+    //   ),
+    //   Publicacao(
+    //     processo: 'Processo 004',
+    //     decisao:
+    //         '9000566-61.2019.8.21.0002(CNJ) - CLAUDIO ROBERTO AVILA VIEIRA (EDUARDO SFOGGIA CAMPOLI 54243/RS) X SANDY PAIM SEVERO (JANAÍNA MOMBACH LABRÊA 72551/RS). DECISÕES:VISTOS.NOS TERMOS DO ART. 40 DA LEI Nº 9.099/95, HOMOLOGO A PROPOSTA DE DECISÃO, PARA QUE PRODUZA EFEITOS COMO SENTENÇA. SEM CUSTAS E HONORÁRIOS, NA FORMA DA LEI. AS PARTES CONSIDERAM-SE INTIMADAS A PARTIR DA PUBLICAÇÃO DA DECISÃO, CASO TENHA OCORRIDO NO PRAZO ASSINADO; DO CONTRÁRIO, A INTIMAÇÃO TERÁ DE SER FORMAL.DILIGÊNCIAS LEGAIS.',
+    //     uf: 'uf',
+    //     tribunal: 'tribunal',
+    //     cidade: 'cidade',
+    //     grau: 'grau',
+    //     gname: 'gname',
+    //     diario: 'diario',
+    //     pagina: 'pagina',
+    //     ano: 'ano',
+    //     mes: 'mes',
+    //     dia: 'dia',
+    //     foro: 'foro',
+    //     vara: 'vara',
+    //     tipo: 'tipo',
+    //     desctipo: 'desctipo',
+    //     recurso: 'recurso',
+    //     // processo: 'processo',
+    //     outronumero: 'outronumero',
+    //     assunto: 'assunto',
+    //     // decisao: 'decisao',
+    //     dataPublicacao: DateTime.now(),
+    //   ),
+    //   Publicacao(
+    //     processo: 'Processo 005',
+    //     decisao:
+    //         '9000566-61.2019.8.21.0002(CNJ) - CLAUDIO ROBERTO AVILA VIEIRA (EDUARDO SFOGGIA CAMPOLI 54243/RS) X SANDY PAIM SEVERO (JANAÍNA MOMBACH LABRÊA 72551/RS). DECISÕES:VISTOS.NOS TERMOS DO ART. 40 DA LEI Nº 9.099/95, HOMOLOGO A PROPOSTA DE DECISÃO, PARA QUE PRODUZA EFEITOS COMO SENTENÇA. SEM CUSTAS E HONORÁRIOS, NA FORMA DA LEI. AS PARTES CONSIDERAM-SE INTIMADAS A PARTIR DA PUBLICAÇÃO DA DECISÃO, CASO TENHA OCORRIDO NO PRAZO ASSINADO; DO CONTRÁRIO, A INTIMAÇÃO TERÁ DE SER FORMAL.DILIGÊNCIAS LEGAIS.',
+    //     uf: 'uf',
+    //     tribunal: 'tribunal',
+    //     cidade: 'cidade',
+    //     grau: 'grau',
+    //     gname: 'gname',
+    //     diario: 'diario',
+    //     pagina: 'pagina',
+    //     ano: 'ano',
+    //     mes: 'mes',
+    //     dia: 'dia',
+    //     foro: 'foro',
+    //     vara: 'vara',
+    //     tipo: 'tipo',
+    //     desctipo: 'desctipo',
+    //     recurso: 'recurso',
+    //     // processo: 'processo',
+    //     outronumero: 'outronumero',
+    //     assunto: 'assunto',
+    //     // decisao: 'decisao',
+    //     dataPublicacao: DateTime.now(),
+    //   ),
+    // ];
+    
+
+    
+
+http://localhost:56469/#/confirmemail/eyJhbGciOiJSUzUxMiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImlyYWlzY2hlbGxAZ21haWwuY29tIiwiaWF0IjoxNjI2Nzg5NzU0LCJleHAiOjE2Mjc2NTM3NTR9.bIn2UhwYSDKFstBBVVJ5eWrN_ylfO7zmOsKA9mhy3n2KijYA-6bFOMEokDSy47415ATpvjby9_-Ipn5hm1L6MblYf8p3ctDS_lXP3pSISedeQM0wJh7HUIZ3KTfcDl9Ccx3l812Q-t5BK38v-sqI8CKbNaYkWwwNeCgjT-Am7fO3TBOdmU8GoJ4QkjcRVU6S8QUjTYDUjMzN1vELVk6sL1-UlOyiK7UWm4-F-iwAZlgUZE6wPyqDTwH86L6CDWT3z047eORl2xyzYz6_W5_vRig8GvM7MRMWqH3WfkKA3_x1gAjdA5UXA9lDn02AAJEADuPYB0m2eUmVWeji0Jn7hQ

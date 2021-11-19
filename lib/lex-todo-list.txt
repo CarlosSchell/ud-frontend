@@ -1,0 +1,174 @@
+1 - Front End
+
+Image(
+                          image: AssetImage('assets/images/lex_logo.png')),
+                          
+- dependencies:
+  badges: ^2.0.1
+import 'package:badges/badges.dart';
+
+https://www.youtube.com/watch?v=NQxG2niy-nU
+
+- fazer git
+- https://github.com/CarlosSchell/lex.git
+- fazer backup
+
+- Fazer tela de cadastro/edição de dados do usuário : nome / tel whats / nro OAB
+- na tela de processo - colocar nro do whats do cliente
+
+- apresentar um resumo da quantidade de novas publicações na tela Home.
+- fazer totalizadores da pesquisa e indicadores de datas.
+- enviar emails 
+
+// - Enviar WhatsApp(nro telefone) , Enviar Email.
+
+- na tela de publicaçoes do processo - colocar opção de copiar texto da decisao / + infos adicionais.
+
+- Botões da Publicacao
+  - fazer row específico com os botões no caso de telas grandes
+  - colocar ícone do whatsapp (qudno o flutter editar o logo no Icons)
+  - enviar emails - fazer
+
+- Mostrar a data da ultima publicacão na tela do processo (daysLate)
+
+- Inserir "não há dados ! " no primeiro item da listview
+- colocar mensagem - não foram encontrados dados para esta pesquisa.
+
+- destacar processos para os quais não foram encontradas publicações.
+
+- Melhorar a Splash screen no android (com lex_logo limpo)
+
+- Colocar hint explicativos em diversas partes do sistema.
+
+- Fazer uma tela específica de consulta por OAB - para advogados.
+
+- Fazer uma tela específica de consulta por multiplos termos.
+
+- Telas de error handling / classes de erros
+
+- Fazer tela de download de arquivos json/csv/txt/pdf
+
+- Criar tela de editar minha conta - cadastrar numero da OAB do advogado - cadastrar numero do whatsapp - cadastrar email para envio
+
+- email: contato@my-lex.app.
+
+---
+
+- dar destaque para mostrar o tipo (Pauta de Julgamentos / Intimações) na apresentação das Publicações.
+   fazer uns botões do tipo badges para classificar as publicaçoes.
+
+- apresentar dados rudimentares de classificação das publicações (por termos tipo decido, intimo, julgo, penhora, etc)
+
+- pensar em como a tela de pesquisa geral pode apresentar resultados mais úteis.
+
+- estudar uma forma de entregar o resultado de pesquisas com muitos resultados (talvez com um link de download dos resultados) - pois há restrição para a gravação de arquivos nos celulares/web.
+
+- Indicar se a rede está online.
+
+- Gravar processos e publicações em arquivo local - para operar offline (para implementação futura).
+
+- gerar versão android / fazer conta na google play / publicar na google play
+
+- ver como se faz uma pwa.
+
+- fazer uma rotina para listar todo o objeto auth.
+
+- colocar countdown do tempo necessário para aguardar o envio de email de confirmação no signup.
+
+- melhorar rotina de hightlight text (estudar)
+
+- fazer pesquisa por multiplos termos separados por virgulas? (estudar)
+
+--------------------
+Elastic Search
+
+- colocar mais opções para a pesquisa textual dos processos.
+
+- concluir o curso de Elastic Search.
+
+- somar ano+mes+dia e fazer um campo texto com esta keyword
+
+- rotinas de backup.
+
+-------------------
+MongoDB
+
+- criar arquivo de processos do usuário
+
+- fazer rotinas de bakcup
+
+Firebase / Google cloud
+
+- analisar possível uso para substituir o MongoDB.
+
+
+---
+Python
+
+- Criar rotinas para automatizar a extração/conversão/verificação/checagem e upload dos dados.
+
+- fazer um arquivo json mensal consolidado.
+
+- Refazer arquivos CSV e testar possíveis erros de conversão
+
+- Estudar forma de estimar as datas de vencimento dos atos processuais com base no texto da decisão.
+
+---
+API
+
+- melhorar os aspectos de segurança da api
+
+- gravar logs de acesso e requisições de usuários
+
+- documentar as rotas da api (no Postman)
+
+- restringir as rotas da api por tipo de usuário.
+
+- atualizar os arquivos de processos.
+
+- limitar a consulta das publicações dos processos cadastrados para mostrar no máximo 5 publicações.
+
+---
+
+9 - Documentação do Sistema / Manuais / Vídeos
+
+- ver como fazer gifs animados
+https://giphy.com/create/gifmaker
+
+Material de apresentação do sistema para advogados
+
+- Fazer um storyboard do uso do sistema com as imagens das telas em sequencia.
+
+- fazer uma conta - pré-loaded - para testes de usuários
+
+- Definir política de preços do sistema - telas de cobrança - rotinas de controle dos usuários.
+
+---
+
+Servidor - GoDaddy - colocar arquivos de download - json, pdf, txt, csv - descobrir forma de proteger o acesso a esta área - talvez fazer um site auxiliar web.
+
+- monitorar o prazo de 60 dias para a partir daí mudar o domínio da GoDaddy para a Kinghost/Adentro.
+
+- montar um esquema de diretórios do servidor.
+
+- Estudar a possibilidade de manter apenas dos ultimos 6 meses de publicações online no servidor.
+
+- Pensar em uma estrutura para expandir o tipo e o número de tribunais.
+
+------------
+
+Fazer registro da marca UDEX
+
+Fazer conta no twitter @my-lex ?
+
+enviar umas imagens e um texto para a Dra. Dayane.
+
+falar com a advogada do Fabio.
+
+- estudar como colocar texto com overflow... reticiencias..
+
+- terminar curso do Daniel ciolfi
+
+-  tomar pneumo p13
+
+- empresa carlos

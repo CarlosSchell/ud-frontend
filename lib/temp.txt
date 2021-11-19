@@ -1,0 +1,35 @@
+            "num_linha": linha[0:6],
+            "pagina": "",
+            "rotulo": "        ",
+            "conteudo": linha[9:],
+
+            "ano": '',
+            "mes": '',
+            "dia": '',
+
+            "uf": '',
+            "tribunal": '',
+
+            "diario": '',
+            "pagina": '',
+
+            "cidade": '',
+            "grau": '',
+            "gname": '',
+
+            "orgao": '',
+            "camara": '',
+            "foro":  '',
+            "vara": '',
+
+            "tipo": '',
+            "obstipo": '',
+            "desctipo": '',
+
+            "classe": '',
+            "assunto": "",
+
+            "processo": '',
+
+            "decisao": '',
+            "obsdec": '',
